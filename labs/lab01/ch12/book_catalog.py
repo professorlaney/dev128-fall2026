@@ -1,4 +1,5 @@
 # Starting file for Lab 1 - Chapter 12 - book_catalog.py program
+# Include your name, date, and class in the assignment comments (replace this line)
 
 def show_book(book_catalog):
     title = input("Title: ")
