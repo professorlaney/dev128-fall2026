@@ -792,27 +792,3 @@ Instead:
 
 Git mistakes are fixable.
 
----
-
-## One instructor recommendation
-
-Because your repository will continue changing during the quarter, I would strongly consider **adding all of the lab/project folders at the beginning**, even if some contain only a placeholder README:
-
-```text
-labs/
-├── lab01/
-├── lab02/
-├── lab03/
-├── lab04/
-├── lab05/
-└── lab06/
-
-projects/
-├── project01/
-├── project02/
-└── final_project/
-```
-
-Then students who create their repository from your template on Day 1 already have the entire structure. You can still add starter files later, but it reduces how often beginners have to perform upstream synchronization.
-
-The main limitation remains: **template repositories are designed to start an independent project, not stay synchronized with the original template**. :chatgpt-content-reference{index="4"} If you expect to add substantial starter code every week, a **fork-based workflow** would actually make ongoing synchronization easier—but for your audience, your current template + a very controlled `upstream` update workflow can work well.
