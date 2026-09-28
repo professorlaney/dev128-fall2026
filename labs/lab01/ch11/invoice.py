@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# Starting file for Lab 1 Chapter 11 invoice.py program
 
 from datetime import datetime, timedelta
 
